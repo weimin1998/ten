@@ -3,21 +3,21 @@ package com.weimin;
 /**
  * 走步数  跳台阶
  */
-public class Demo {
+public class Step {
 
-/*
-*
-* 上台阶 一次可以上一节或者两节，现在要上n节，有几种走法
-*
-* 1   1
-* 2   2
-* 3   3
-* 4   5
-* 5   8
-*
-*
-* 从n=3开始 它的值为前两个的和
-* */
+    /*
+     *
+     * 上台阶 一次可以上一节或者两节，现在要上n节，有几种走法
+     *
+     * 1   1
+     * 2   2
+     * 3   3
+     * 4   5
+     * 5   8
+     *
+     *
+     * 从n=3开始 它的值为前两个的和
+     * */
     public static void main(String[] args) {
         long start = System.currentTimeMillis();
         System.out.println(test2(40));

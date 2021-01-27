@@ -41,9 +41,17 @@ public class StringReplace {
         }
 
         String s = new String(result);
+        System.out.println(Arrays.toString(result));
         System.out.println(s);
         System.out.println("新字符串的长度：" + s.length());
 
 
     }
+
+//    原字符串的长度：10
+//[w, e,  , a, r, e,  , o, n, e]
+//字符串中空格的数量：2
+//[w, e, %, 2, 0, a, r, e, %, 2, 0, o, n, e]
+//we%20are%20one
+//新字符串的长度：14
 }
